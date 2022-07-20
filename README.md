@@ -6,7 +6,7 @@
 
 _A Responsive website for the portfolio & biography of Luis Miranda Neira and Via Margutta Gallery_
 
-👉<a href="https://viamarguttaec.com/">Open Live</a>👈
+👉<a href="https://viamarguttaec.com/" target="_blank">Open Live</a>👈
 
 </h2>
 
