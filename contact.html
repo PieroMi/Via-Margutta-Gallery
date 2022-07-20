@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Via Margutta Gallery</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <style>
+                .logo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 30px;
+        }
+   </style>
+</head>
+<body>
+    <aside><img src="images\VIAMARGUTTALOGO_WHITE.png" class="logo" alt="Via Margutta Gallery" width="195" height="192"></img></aside>
+
+    <header>
+        <nav>
+            <ul class="navbar">
+                <a href="/">Home</a>
+                <div class="dropdown">
+                <button class="dropbtn">About
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="introduction.html">Introduction</a>
+                    <a href="biography.html">Biography</a>
+                    <a href="viamargutta.html">Via Margutta</a>
+                </div>
+                </div>
+                <a href="art.html">Art Gallery</a>
+                <a href="contact.html">Contact Us</a>
+            </ul>
+
+       </nav>
+    </header>
+    <div class="container" >
+        <form>
+            <h3>CONTACT US</h3>
+            <input type="text" name="name" placeholder="Full Name"/><br/><br/>
+            <input type="text" name="email" placeholder="Email"/><br/><br/>
+            <textarea rows="4" name="message" placeholder="Include the name of the painting you wish to see"></textarea><br/><br/>
+            <input class="submit" type="submit">
+            <div>
+                <p id="result-text"></p>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/viamarguttaec/" class="fa fa-instagram" id="instagram" target="_blank"></a>
+            <a href="https://www.facebook.com/viamarguttagallery/" class="fa fa-facebook" id="facebook" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/piero-miranda/" class="fa fa-linkedin" id="linkedin" target="_blank"></a>
+            <a href="https://github.com/PieroMi" class="fa fa-github" id="github" target="_blank"></a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>

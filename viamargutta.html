@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Via Margutta Gallery</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <style>
+   </style>
+</head>
+<br>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <a href="/">Home</a>
+                <div class="dropdown">
+                <button class="dropbtn">About
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="introduction.html">Introduction</a>
+                    <a href="biography.html">Biography</a>
+                    <a href="viamargutta.html">Via Margutta</a>
+                </div>
+                </div>
+                <a href="art.html">Art Gallery</a>
+                <a href="contact.html">Contact Us</a>
+            </ul>
+
+       </nav>
+    </header>
+
+    <div class="imageslide-container">
+        <div class="slides fade">
+            <img src="images/viamargutta1950(2).jpg" style="width:100%">
+            <div class="text">Via Margutta 1950s</div>
+        </div>
+        
+        <div class="slides fade">
+            <img src="images/laspenas.jpg" style="width:100%">
+            <div class="text">Las Peñas, Guayaquil, 2019</div>
+        </div>
+
+        <div class="slides fade">
+            <img src="images/viamarguttaitaly.jpg" style="width:100%">
+            <div class="text">Via Margutta, 2019</div>
+        </div>
+
+        <div class="slides fade">
+            <img src="images/viamarguttaArticle(2).jpg"  class="img1">
+            <div class="text">Via Margutta, 1596</div>
+        </div>
+
+        <div class="slides fade">
+            <img src="images/background1.jpg" style="width:100%">
+            <div class="text">Via Margutta Gallery</div>
+        </div>
+        
+        <div class="slides fade">
+            <img src="images/vinolibro.jpg" style="width:100%">
+            <div class="text">Via Margutta Gallery</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+
+    </div>
+
+    <div class="main-column">
+    <h1 class="about-margutta-title">About Via Margutta</h1>
+
+    <div class="quote">
+        “Fortuny, for example, came from Spain. Around 1858 he came to Rome to study Italian painting. 
+        It was an important school; this was the street of the painters.” 
+    </div>
+
+    <div class="quote-name">
+        - Giovanni Battista Carboni
+    </div>
+
+        <p class="paragraph">
+            Via Margutta, once the home to the film director Fellini, also an attractive location for film directors to shoot scenes in Via Margutta. It is a short street but contains
+            a lot of history dating back a couple thousand years. The word "Margutta" comes from a latin euphemism -"sea drop"- from the water drainage that came from the villas and palaces
+            that surrounded what is now called Via Margutta. The street has always been known for artists and craftsman and not only locally but from many parts of Europe. Artists such as Claude
+            Debussy, composer Giacomo Puccini, along with Pablo Picasso visited or lived there. 
+        </p>
+
+        <p class="paragraph">
+            Filled with history and the impact that it made for the art world is what makes Via Margutta so valued and cherished. Furthermore, the correlation that Via Margutta has with the art 
+            gallery that we named after the street is because of what was mentioned in the introduction that while Luis Miranda was pursuing his academics in the School of Arts in Rome he won his first
+            award and it was named the "Via Margutta" award in 1959. Because Via Margutta was known for art and its artists, Luis Miranda spent much of his time in that same street, having the opportunity to have
+            seen Fellini and many other known people from the industry walking in the neighborhood. 
+        </p>
+
+        <p class="paragraph">
+            As shown in the images above, the streets in the 1950s are filled with artists from all over showing and selling their art which have a lot of similarities to the image from Las Peñas, Guayaquil. The history of 
+            Las Peñas is that it is the first neighborhood in the city of Guayaquil. Many different personalities came across the neighborhood of Las Peñas from politics, to historians, artists, writers.
+            Eleven Presidents of Ecuador lived in this neighborhood, writers such as Enrique Gil Gilbert, musician Antonio Neumane, the author of the lyrics of the National Anthem.
+            Che Guevera lived in Las Peñas for sometime giving pediatric assistance to the inhabitants of the city. And other known people such as Ernest Hemingway, and Pablo Neruda visited the neighborhood.
+        </p>
+
+        <p class="paragraph">
+            In conclusion, in honor of Luis Miranda living his youth days as a student in Rome, winning his first award named Via Margutta, and spending much of his time in the street named Via Margutta it felt it was
+            the right suited name to exhibit 
+            <a class="link" href="art.html" target="_blank">Luis Miranda's private collection</a>
+             in none other than Via Margutta Gallery and located in Las Peñas, Guayaquil where the artist also spent much of his teens exhibiting his art.
+        </p>
+
+    </div>
+
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/viamarguttaec/" class="fa fa-instagram" id="instagram" target="_blank"></a>
+            <a href="https://www.facebook.com/viamarguttagallery/" class="fa fa-facebook" id="facebook" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/piero-miranda/" class="fa fa-linkedin" id="linkedin" target="_blank"></a>
+            <a href="https://github.com/PieroMi" class="fa fa-github" id="github" target="_blank"></a>
+        </div>
+    </footer>
+    <script>
+var slideImageIndex = 1; // the variable slideImageIndex will start with first image
+ 
+ showSlides(slideImageIndex);
+ 
+ function plusSlides(n) {   
+   showSlides(slideImageIndex += n); // When clicking the next or prev arrow it will move one slide
+ }
+ 
+ function currentSlide(n) {
+   showSlides(slideImageIndex = n) // When clicking the O buttons it will display the current Image that was clicked with the 'dot' function
+ }
+ 
+ function showSlides(n) { 
+   var i;
+   var slides = document.getElementsByClassName("slides");
+   var dots = document.getElementsByClassName("dot");
+ 
+   if (n > slides.length) {  // if nth position is currently outside the length of the slides it will return to the first image
+     slideImageIndex = 1
+   }
+ 
+   if (n < 1){    // If the prev button is clicked to the first image once it's clicked again it will return to the last image of the slide.
+     slideImageIndex = slides.length
+   }
+ 
+   for(i = 0; i < slides.length; i++){ // For loop to iterate through the slide once i is less than the length it won't display anything
+     slides[i].style.display = "none";
+   }
+ 
+   for (i = 0; i < dots.length; i++){
+     dots[i].className = dots[i].className.replace(" active", ""); // A for loop to replace the black dots to empty once it clicks the next image.
+   }
+ 
+   slides[slideImageIndex - 1].style.display = "block";
+ 
+   dots[slideImageIndex - 1].className += " active";
+ 
+ }
+    </script>
+</body>
+</html>

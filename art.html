@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art | Via Margutta</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>  
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300'><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <a href="/">Home</a>
+                <div class="dropdown">
+                <button class="dropbtn">About
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="introduction.html">Introduction</a>
+                    <a href="biography.html">Biography</a>
+                    <a href="viamargutta.html">Via Margutta</a>
+                </div>
+                </div>
+                <a href="art.html">Art Gallery</a>
+                <a href="contact.html">Contact Us</a>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <div class="full-img" id="clickedImgBox">
+            <figure>
+            <img id="clickedImg"> 
+            </figure>
+        </div>
+    <div class="gallery">
+            <figure>
+            <img src="images/puertosantaana.jpeg" onclick="openImg(this.src)">
+            <figcaption>Santa Ana Port · <small>2006</small></figcaption>
+            </figure>
+            <figure>
+            <img src="images/chicaschanduy.jpeg" onclick="openImg(this.src)">
+            <figcaption>Ladies In Chanduy · <small>2015</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/chanduypescador.jpeg" onclick="openImg(this.src)">
+                <figcaption>Fisherman & Dog · <small>2015</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/chanduymanglar.jpeg" onclick="openImg(this.src)">
+                <figcaption>Mangroves in Chanduy · <small>2016</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/santaAnaPescadores.jpeg" onclick="openImg(this.src)">
+                <figcaption>Dandies & Fishermen · <small>2016</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/muchachosempujandocarro.jpg" onclick="openImg(this.src)">
+                <figcaption>Men Pushing Cart Market· <small>2007</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/vendeCangrejo.jpeg" onclick="openImg(this.src)">
+                <figcaption>Crabs for Sale· <small>2012</small></figcaption>
+            </figure>
+                <figure>
+                <img src="images/hombrestrabajando.jpeg" onclick="openImg(this.src)">
+                <figcaption>Construction Men · <small>1979</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/mecanico.jpg" onclick="openImg(this.src)">
+                <figcaption>Mechanic · <small>1983</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/carros.jpeg" onclick="openImg(this.src)">
+                <figcaption>Yunkyard with Color · <small>1977</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/carros2.jpeg" onclick="openImg(this.src)">
+                <figcaption>Yunkyard · <small>1977</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/dentroDeBarco.jpeg" onclick="openImg(this.src)">
+                <figcaption>Inside Boat · <small>1981</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/chicasmascaras.jpeg" onclick="openImg(this.src)">
+                <figcaption>Girls with Many Masks · <small>1983</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/manyfaces.jpeg" onclick="openImg(this.src)">
+                <figcaption>One Girl & Faces · <small>N/A</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/chicasdelmetro.jpg" onclick="openImg(this.src)">
+                <figcaption>Ladies in the Metro · <small>2011</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/chicasdulces.jpg" onclick="openImg(this.src)">
+                <figcaption>Sweet Ladies · <small>2012</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/chicasyHombre.jpeg" onclick="openImg(this.src)">
+                <figcaption>Sweet Ladies at Work · <small>2007</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/bananafield.jpg" onclick="openImg(this.src)">
+                <figcaption>Banana Fields · <small>2007</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/banano.jpg" onclick="openImg(this.src)">
+                <figcaption>Banana · <small>2004</small></figcaption>
+            </figure>
+            <figure>
+                <img src="images/rosasblancas.jpeg" onclick="openImg(this.src)">
+                <figcaption>White Roses · <small>2007</small></figcaption>
+            </figure>
+
+    </div>
+    </main>
+
+    <script src="./art.js"></script>
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/viamarguttaec/" class="fa fa-instagram" id="instagram" target="_blank"></a>
+            <a href="https://www.facebook.com/viamarguttagallery/" class="fa fa-facebook" id="facebook" target="_blank"></a>
+            <a href="https://www.linkedin.com/in/piero-miranda/" class="fa fa-linkedin" id="linkedin" target="_blank"></a>
+            <a href="https://github.com/PieroMi" class="fa fa-github" id="github" target="_blank"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
